@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://odyssey-exchange.ru/sitemap.xml
+Host: odyssey-exchange.ru
