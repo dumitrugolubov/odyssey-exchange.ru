@@ -1,0 +1,88 @@
+/* Custom styles for About page */
+.t-cover {
+    height: 50vh !important; /* Adjusted hero section height */
+}
+
+/* Consistent section spacing */
+.t-rec {
+    padding: 60px 0;
+}
+
+/* Improved mobile navigation */
+@media screen and (max-width: 980px) {
+    .t228 {
+        position: fixed !important;
+        background: rgba(0,0,0,0.9);
+        backdrop-filter: blur(10px);
+    }
+}
+
+/* FAQ section improvements */
+.t668__title {
+    font-size: 32px !important;
+    line-height: 1.4;
+    margin-bottom: 40px;
+}
+
+.t668__accordion {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 16px;
+}
+
+.t668__header {
+    padding: 20px;
+    background: #f8f8f8;
+    transition: background 0.3s ease;
+}
+
+.t668__header:hover {
+    background: #f0f0f0;
+}
+
+.t668__title.t-name.t-name_xl {
+    font-size: 18px !important;
+    font-weight: 500;
+}
+
+/* Consistent button styling */
+.t-btn {
+    border-radius: 8px !important;
+    transition: all 0.3s ease !important;
+    font-weight: 600 !important;
+    text-transform: none !important;
+    padding: 15px 30px !important;
+}
+
+.t-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Improved typography */
+.t119__preface {
+    font-size: 18px !important;
+    line-height: 1.6 !important;
+    color: #333 !important;
+}
+
+.t-text_md {
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+    color: #444 !important;
+}
+
+/* Responsive improvements */
+@media screen and (max-width: 640px) {
+    .t-rec {
+        padding: 40px 0;
+    }
+    
+    .t668__title {
+        font-size: 24px !important;
+    }
+    
+    .t119__preface {
+        font-size: 16px !important;
+    }
+}
