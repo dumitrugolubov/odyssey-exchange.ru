@@ -44,6 +44,74 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "@id": "https://odyssey-exchange.ru/memecoins#webpage",
+        "url": "https://odyssey-exchange.ru/memecoins",
+        "name": "Популярные мемкоины | Odyssey Exchange",
+        "description": "Торгуйте популярными мемкоинами на первой русскоязычной бирже",
+        "isPartOf": {
+            "@type": "WebSite",
+            "@id": "https://odyssey-exchange.ru/#website"
+        },
+        "mainEntity": {
+            "@type": "ItemList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@type": "Cryptocurrency",
+                        "name": "DOGE",
+                        "description": "Dogecoin - первый и самый популярный мемкоин",
+                        "image": "https://odyssey-exchange.ru/images/coins/doge.png",
+                        "offers": {
+                            "@type": "Offer",
+                            "price": "0.00000000",
+                            "priceCurrency": "USD"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@type": "Cryptocurrency",
+                        "name": "PEPE",
+                        "description": "PEPE - мемкоин на основе лягушонка Пепе",
+                        "image": "https://odyssey-exchange.ru/images/coins/pepe.png",
+                        "offers": {
+                            "@type": "Offer",
+                            "price": "0.00000000",
+                            "priceCurrency": "USD"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Главная",
+            "item": "https://odyssey-exchange.ru/"
+        }, {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Мемкоины",
+            "item": "https://odyssey-exchange.ru/memecoins"
+        }]
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
         "@type": "ItemList",
         "name": "Популярные мемкоины на Odyssey Exchange",
         "description": "Список популярных мемкоинов для торговли с актуальными ценами и графиками",

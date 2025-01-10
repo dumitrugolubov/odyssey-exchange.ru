@@ -41,36 +41,33 @@
     <link rel="canonical" href="https://odyssey-exchange.ru/trade">
     
     <!-- Schema.org markup -->
-    <script type="application/ld+json">
+    <!-- Schema.org markup -->
+<script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "TradingFloor",
-        "name": "Odyssey Exchange - Торговля мемкоинами",
-        "description": "Платформа для торговли мемкоинами с нулевой комиссией и возвратом при ликвидации",
+        "@type": "WebPage",
+        "@id": "https://odyssey-exchange.ru/trade#webpage",
         "url": "https://odyssey-exchange.ru/trade",
-        "provider": {
-            "@type": "Organization",
-            "name": "Odyssey Exchange",
-            "url": "https://odyssey-exchange.ru"
-        },
-        "offers": {
-            "@type": "Offer",
-            "description": "Спот торговля мемкоинами без комиссии",
-            "category": "Cryptocurrency Trading",
-            "availabilityStarts": "2024-01-01",
-            "seller": {
-                "@type": "Organization",
-                "name": "Odyssey Exchange"
-            }
-        },
-        "potentialAction": {
-            "@type": "TradeAction",
-            "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "https://ody.lol/trade",
-                "actionPlatform": [
-                    "http://schema.org/DesktopWebPlatform",
-                    "http://schema.org/MobileWebPlatform"
+        "name": "Торговля | Odyssey Exchange",
+        "description": "Торгуйте мемкоинами без комиссии. DOGE/USDT, PEPE/USDT и другие пары",
+        "mainEntity": {
+            "@type": "Service",
+            "name": "Спот-торговля мемкоинами",
+            "description": "Торговля мемкоинами с нулевой комиссией",
+            "offers": {
+                "@type": "AggregateOffer",
+                "name": "Торговые пары",
+                "offers": [
+                    {
+                        "@type": "Offer",
+                        "name": "DOGE/USDT",
+                        "availability": "InStock"
+                    },
+                    {
+                        "@type": "Offer",
+                        "name": "PEPE/USDT",
+                        "availability": "InStock"
+                    }
                 ]
             }
         }
