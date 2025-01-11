@@ -1,0 +1,76 @@
+.t485 {
+    padding: 40px 0;
+}
+
+.t485__wrappercenter {
+    margin: 20px auto;
+    max-width: 560px;
+}
+
+.t485 .t-card__col {
+    margin-bottom: 40px;
+}
+
+.t485__img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 20px;
+}
+
+.t-card__title {
+    font-size: 24px;
+    line-height: 1.35;
+    margin-bottom: 15px;
+}
+
+.t-card__descr {
+    font-size: 16px;
+    line-height: 1.55;
+    color: #666;
+}
+
+@media screen and (max-width: 768px) {
+    .t485 {
+        padding: 30px 0;
+    }
+    
+    .t485 .t-card__col {
+        margin-bottom: 30px;
+    }
+    
+    .t-card__title {
+        font-size: 20px;
+    }
+}
+
+/* Fix for registration and balance replenishment blocks */
+.registration-block,
+.balance-block {
+    margin: 20px 0;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.registration-block img,
+.balance-block img {
+    max-width: 200px;
+    height: auto;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.registration-block h2,
+.balance-block h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.registration-block p,
+.balance-block p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color: #333;
+}
