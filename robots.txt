@@ -1,5 +1,12 @@
 User-Agent: *
 Allow: /
 
+# Disallow problematic paths
+Disallow: /-/empty/
+Disallow: /search
+Disallow: /static3.tildacdn.com/
+
+# Yandex-specific
 Sitemap: https://odyssey-exchange.ru/sitemap.xml
+Sitemap: https://odyssey-exchange.ru/turbo.xml
 Host: odyssey-exchange.ru

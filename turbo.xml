@@ -8,12 +8,17 @@
         <link>https://odyssey-exchange.ru</link>
         <description>Первая русскоязычная биржа мемкоинов с возвратом при ликвидации и нулевой комиссией</description>
         <language>ru</language>
-        <yandex:analytics type="Yandex" id="12345678"/>
+        <turbo:analytics type="Yandex" id="12345678"/>
+        <yandex:related type="infinity"/>
+        <pubDate>Mon, 21 Jan 2025 09:08:28 +0000</pubDate>
+        <lastBuildDate>Mon, 21 Jan 2025 09:08:28 +0000</lastBuildDate>
         
         <!-- Главная страница -->
         <item turbo="true">
             <title>Odyssey Exchange | Первая биржа мемкоинов с возвратом 10% при ликвидации</title>
             <link>https://odyssey-exchange.ru</link>
+            <pubDate>Mon, 21 Jan 2025 09:08:28 +0000</pubDate>
+            <author>Odyssey Exchange</author>
             <turbo:content>
                 <![CDATA[
                     <header>
@@ -21,6 +26,12 @@
                         <figure>
                             <img src="https://odyssey-exchange.ru/images/hero.png"/>
                         </figure>
+                        <menu>
+                            <a href="https://odyssey-exchange.ru/trade">Торговля</a>
+                            <a href="https://odyssey-exchange.ru/memecoins">Мемкоины</a>
+                            <a href="https://odyssey-exchange.ru/partners">Партнёрам</a>
+                            <a href="https://odyssey-exchange.ru/contacts">Контакты</a>
+                        </menu>
                     </header>
 
                     <h2>Ключевые преимущества</h2>
@@ -28,15 +39,15 @@
                     <div data-block="cards">
                         <div data-card-title="Нулевая комиссия">
                             <p>Торгуйте на споте без комиссии</p>
-                            <img src="https://odyssey-exchange.ru/images/commission.png"/>
+                            <img src="https://odyssey-exchange.ru/images/lib__icons__tilda__discount_percent_benefit_offer.svg"/>
                         </div>
                         <div data-card-title="Возврат 10%">
                             <p>Получайте 10% назад при ликвидации</p>
-                            <img src="https://odyssey-exchange.ru/images/cashback.png"/>
+                            <img src="https://odyssey-exchange.ru/images/lib__icons__tilda__bitcoin_blockchain_chip.svg"/>
                         </div>
                         <div data-card-title="Партнерская программа">
                             <p>Зарабатывайте до 50% с комиссий</p>
-                            <img src="https://odyssey-exchange.ru/images/partner.png"/>
+                            <img src="https://odyssey-exchange.ru/images/lib__icons__tilda__people_money_crowdfunding.svg"/>
                         </div>
                     </div>
 
@@ -60,13 +71,14 @@
                     </share>
                 ]]>
             </turbo:content>
-            <pubDate>Thu, 10 Jan 2025 13:41:49 GMT</pubDate>
         </item>
 
         <!-- Страница торговли -->
         <item turbo="true">
             <title>Торговля мемкоинами | Спот 0% комиссия | Odyssey Exchange</title>
             <link>https://odyssey-exchange.ru/trade</link>
+            <pubDate>Mon, 21 Jan 2025 09:08:28 +0000</pubDate>
+            <author>Odyssey Exchange</author>
             <turbo:content>
                 <![CDATA[
                     <header>
@@ -74,6 +86,12 @@
                         <figure>
                             <img src="https://odyssey-exchange.ru/images/trade.png"/>
                         </figure>
+                        <menu>
+                            <a href="https://odyssey-exchange.ru">Главная</a>
+                            <a href="https://odyssey-exchange.ru/memecoins">Мемкоины</a>
+                            <a href="https://odyssey-exchange.ru/partners">Партнёрам</a>
+                            <a href="https://odyssey-exchange.ru/contacts">Контакты</a>
+                        </menu>
                     </header>
 
                     <h2>Преимущества торговли</h2>
@@ -84,22 +102,29 @@
                         <li>Быстрое исполнение ордеров</li>
                     </ul>
 
-                    <button formaction="https://ody.lol/trade" data-background-color="#F0932B" data-color="white">
+                    <button formaction="https://ody.lol" data-background-color="#F0932B" data-color="white">
                         Начать торговать
                     </button>
                 ]]>
             </turbo:content>
-            <pubDate>Thu, 10 Jan 2025 13:41:49 GMT</pubDate>
         </item>
 
         <!-- Страница о мемкоинах -->
         <item turbo="true">
             <title>Мемкоины | Топ мемных токенов 2025 | Odyssey Exchange</title>
             <link>https://odyssey-exchange.ru/memecoins</link>
+            <pubDate>Mon, 21 Jan 2025 09:08:28 +0000</pubDate>
+            <author>Odyssey Exchange</author>
             <turbo:content>
                 <![CDATA[
                     <header>
                         <h1>Топ мемкоинов 2025 года</h1>
+                        <menu>
+                            <a href="https://odyssey-exchange.ru">Главная</a>
+                            <a href="https://odyssey-exchange.ru/trade">Торговля</a>
+                            <a href="https://odyssey-exchange.ru/partners">Партнёрам</a>
+                            <a href="https://odyssey-exchange.ru/contacts">Контакты</a>
+                        </menu>
                     </header>
 
                     <div data-block="cards">
@@ -114,22 +139,29 @@
                         </div>
                     </div>
 
-                    <button formaction="https://ody.lol/memecoins" data-background-color="#F0932B" data-color="white">
+                    <button formaction="https://ody.lol" data-background-color="#F0932B" data-color="white">
                         Торговать мемкоинами
                     </button>
                 ]]>
             </turbo:content>
-            <pubDate>Thu, 10 Jan 2025 13:41:49 GMT</pubDate>
         </item>
 
         <!-- Страница партнерской программы -->
         <item turbo="true">
             <title>Партнерская программа | До 50% с комиссий | Odyssey Exchange</title>
             <link>https://odyssey-exchange.ru/partners</link>
+            <pubDate>Mon, 21 Jan 2025 09:08:28 +0000</pubDate>
+            <author>Odyssey Exchange</author>
             <turbo:content>
                 <![CDATA[
                     <header>
                         <h1>Партнерская программа Odyssey Exchange</h1>
+                        <menu>
+                            <a href="https://odyssey-exchange.ru">Главная</a>
+                            <a href="https://odyssey-exchange.ru/trade">Торговля</a>
+                            <a href="https://odyssey-exchange.ru/memecoins">Мемкоины</a>
+                            <a href="https://odyssey-exchange.ru/contacts">Контакты</a>
+                        </menu>
                     </header>
 
                     <h2>Преимущества партнерской программы</h2>
@@ -140,22 +172,29 @@
                         <li>Прозрачная статистика</li>
                     </ul>
 
-                    <button formaction="https://ody.lol/partners" data-background-color="#F0932B" data-color="white">
+                    <button formaction="https://ody.lol" data-background-color="#F0932B" data-color="white">
                         Стать партнером
                     </button>
                 ]]>
             </turbo:content>
-            <pubDate>Thu, 10 Jan 2025 13:41:49 GMT</pubDate>
         </item>
 
         <!-- О бирже -->
         <item turbo="true">
             <title>О бирже | Odyssey Exchange | Инновации в мире мемкоинов</title>
             <link>https://odyssey-exchange.ru/about</link>
+            <pubDate>Mon, 21 Jan 2025 09:08:28 +0000</pubDate>
+            <author>Odyssey Exchange</author>
             <turbo:content>
                 <![CDATA[
                     <header>
                         <h1>О бирже Odyssey Exchange</h1>
+                        <menu>
+                            <a href="https://odyssey-exchange.ru">Главная</a>
+                            <a href="https://odyssey-exchange.ru/trade">Торговля</a>
+                            <a href="https://odyssey-exchange.ru/memecoins">Мемкоины</a>
+                            <a href="https://odyssey-exchange.ru/contacts">Контакты</a>
+                        </menu>
                     </header>
 
                     <h2>Наша миссия</h2>
@@ -169,29 +208,36 @@
                         <li>Прозрачность работы</li>
                     </ul>
 
-                    <button formaction="https://ody.lol/about" data-background-color="#F0932B" data-color="white">
+                    <button formaction="https://ody.lol" data-background-color="#F0932B" data-color="white">
                         Узнать больше
                     </button>
                 ]]>
             </turbo:content>
-            <pubDate>Thu, 10 Jan 2025 13:41:49 GMT</pubDate>
         </item>
 
         <!-- Контакты -->
         <item turbo="true">
             <title>Контакты | Поддержка 24/7 | Odyssey Exchange</title>
             <link>https://odyssey-exchange.ru/contacts</link>
+            <pubDate>Mon, 21 Jan 2025 09:08:28 +0000</pubDate>
+            <author>Odyssey Exchange</author>
             <turbo:content>
                 <![CDATA[
                     <header>
                         <h1>Контакты и поддержка</h1>
+                        <menu>
+                            <a href="https://odyssey-exchange.ru">Главная</a>
+                            <a href="https://odyssey-exchange.ru/trade">Торговля</a>
+                            <a href="https://odyssey-exchange.ru/memecoins">Мемкоины</a>
+                            <a href="https://odyssey-exchange.ru/partners">Партнёрам</a>
+                        </menu>
                     </header>
 
                     <h2>Как с нами связаться</h2>
                     <ul>
-                        <li>Telegram: @odysseyexchange</li>
-                        <li>Email: support@odyssey-exchange.ru</li>
-                        <li>Twitter: @odysseyexchange</li>
+                        <li>Telegram: @t_dmi3</li>
+                        <li>Email: odyexchange@gmail.com</li>
+                        <li>Twitter: @t_dmi3</li>
                     </ul>
 
                     <div data-block="accordion">
@@ -203,12 +249,11 @@
                         </div>
                     </div>
 
-                    <button formaction="https://t.me/odysseyexchange" data-background-color="#F0932B" data-color="white">
+                    <button formaction="https://t.me/t_dmi3" data-background-color="#F0932B" data-color="white">
                         Написать в поддержку
                     </button>
                 ]]>
             </turbo:content>
-            <pubDate>Thu, 10 Jan 2025 13:41:49 GMT</pubDate>
         </item>
     </channel>
 </rss>
